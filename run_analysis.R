@@ -53,5 +53,5 @@ run_analysis <- function(){
         mData <- dcast(tmp, subject + activity ~ variable, mean)
         
         #writing the data in a text file
-        write.table(mData, "tidydata.txt", row.names = TRUE)
+        write.table(mData, "tidydata.txt", row.names = FALSE)
 }
