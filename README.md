@@ -1,9 +1,9 @@
 GettingAndCleaningData
 ======================
 
-There are three files: run.analysis.R, CodeBook.md and README.md
+There are three files: run_analysis.R, CodeBook.md and README.md
 
-        In run.analysis.R file:
+        In run_analysis.R file:
                 download and unzipping the Data are done first. After that, 
                 train data and test data are combined. After that, extracting 
                 only the measurements on the mean and standard deviation for 
