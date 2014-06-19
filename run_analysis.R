@@ -1,3 +1,5 @@
+library(reshape2)
+
 des.Variable <- function(p, r, x, ...) {
         for (i in 1:length(p)) {
                 x <- gsub(p[i], r[i], x, ...)
